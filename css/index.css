@@ -23,6 +23,23 @@
     width: calc(100% - 64px);
     display: inline-block;
     padding: 164px 32px 64px 32px;
+    z-index: 1;
+}
+
+.header-inner-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.header-inner-icon {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    filter: grayscale(100) opacity(.33);
 }
 
 .header-top {
